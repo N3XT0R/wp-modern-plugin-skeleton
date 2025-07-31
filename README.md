@@ -18,15 +18,19 @@ This repository provides a starting point for building modern WordPress plugins 
    ```bash
    composer install
    ```
-2. Run tests
+2. Initialize your plugin
+   ```bash
+   composer init-plugin
+   ```
+3. Run tests
    ```bash
    composer test
    ```
-3. Generate plugin header
+4. Generate plugin header
    ```bash
    composer generate-header
    ```
-4. Package plugin
+5. Package plugin
    ```bash
    ./build/build.sh
    ```
